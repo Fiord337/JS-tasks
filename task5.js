@@ -10,10 +10,10 @@
 // Второе число (b) поделить на 100, взять остаток, а потом поделить его на десять
 // Третье число (с) это просто остаток от деления на 10
 
-CheckIfTheYearIsLeap (555)
-CheckIfTheYearIsLeap (123)
+CheckIfPartsOfNumberDiffer (555)
+CheckIfPartsOfNumberDiffer (123)
 
-function CheckIfTheYearIsLeap(number) { 
+function CheckIfPartsOfNumberDiffer(number) { 
     a = Math.floor(number/100)
     b = Math.floor((number%100)/10)
     c = (number % 10)
